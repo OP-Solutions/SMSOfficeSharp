@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Mp1UgD4OCQgXAhjFqHi74MH3gA95cSS2iixonw13F3G2yLHJ1W48z8I96MvOCQeGlyeY/idcnLY82rKeLa8MGw==",
+  "success": true,
+  "projectFilePath": "/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp.csproj",
+  "expectedPackageFiles": [
+    "/home/bakurits/.nuget/packages/newtonsoft.json/12.0.3/newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

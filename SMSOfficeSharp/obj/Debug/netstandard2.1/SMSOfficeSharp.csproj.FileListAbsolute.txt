@@ -1,0 +1,9 @@
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/bin/Debug/netstandard2.1/SMSOfficeSharp.deps.json
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/bin/Debug/netstandard2.1/SMSOfficeSharp.dll
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/bin/Debug/netstandard2.1/SMSOfficeSharp.pdb
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.csprojAssemblyReference.cache
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.AssemblyInfoInputs.cache
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.AssemblyInfo.cs
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.csproj.CoreCompileInputs.cache
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.dll
+/home/bakurits/Documents/Programming/Open Source/SMSOfficeSharp/SMSOfficeSharp/SMSOfficeSharp/obj/Debug/netstandard2.1/SMSOfficeSharp.pdb

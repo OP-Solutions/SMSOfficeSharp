@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSOfficeSharp", "SMSOfficeSharp\SMSOfficeSharp.csproj", "{978859AD-B18D-4A58-AB3B-D9AD451293CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SMSOfficeSharpTest", "SMSOfficeSharpTest\SMSOfficeSharpTest.csproj", "{AA0AE6BA-1EC2-4B1F-BB62-000BE8E99A8F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{978859AD-B18D-4A58-AB3B-D9AD451293CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{978859AD-B18D-4A58-AB3B-D9AD451293CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{978859AD-B18D-4A58-AB3B-D9AD451293CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{978859AD-B18D-4A58-AB3B-D9AD451293CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA0AE6BA-1EC2-4B1F-BB62-000BE8E99A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA0AE6BA-1EC2-4B1F-BB62-000BE8E99A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA0AE6BA-1EC2-4B1F-BB62-000BE8E99A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA0AE6BA-1EC2-4B1F-BB62-000BE8E99A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
