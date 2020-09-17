@@ -2,6 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>netstandard2.1</TargetFramework>
+        <PackageId>SMSOfficeSharp</PackageId>
+        <Version>1.0.0</Version>
+        <Authors>OP Solutions</Authors>
+        <Company>OP Solutions</Company>
+        <PackageDescription>C# SDK for sms office</PackageDescription>
+        <RepositoryUrl>https://github.com/OP-Solutions/SMSOfficeSharp</RepositoryUrl>
+        <Title>SMSOfficeSharp</Title>
+        <Description>SDK for smsoffice.ge API</Description>
+        <PackageProjectUrl>https://github.com/OP-Solutions/SMSOfficeSharp</PackageProjectUrl>
+        <PackageTags>SDK, smsoffice.ge</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
