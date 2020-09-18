@@ -42,7 +42,7 @@ namespace SMSOfficeSharp
     {
         private readonly HttpClient _client = new HttpClient();
         public static string ApiEndpoint = "https://smsoffice.ge/api/v2/send/";
-        public static string MessageTitle = "Imagine";
+        public string MessageTitle { get; set; }
         public string ApiKey { get; set; }
 
         public void Send(string text, params string[] phoneNumbers)

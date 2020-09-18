@@ -36,6 +36,8 @@ x64/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+**obj
+
 **/obj
 *_i.c
 *_p.c

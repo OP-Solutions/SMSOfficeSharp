@@ -1,6 +1,7 @@
 using System;
 using SMSOfficeSharp;
 using Xunit;
+
 namespace SMSOfficeSharpTest
 {
     public class UnitTest1
@@ -8,7 +9,7 @@ namespace SMSOfficeSharpTest
         [Fact]
         public void Test1()
         {
-            var s = new Sender {ApiKey = "api key here"};
+            var s = new Sender {ApiKey = "api key here", MessageTitle = "message title here"};
 
             s.Send("GG", "995591915519");
         }
