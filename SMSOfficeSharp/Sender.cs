@@ -1,36 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Net;
 using System.Net.Http;
 using Newtonsoft.Json;
 
 namespace SMSOfficeSharp
 {
-    public class BadRequestException : Exception
+    [SuppressMessage("ReSharper", "InconsistentNaming")]
+    public class SMSOfficeException : Exception
     {
-        public BadRequestException(string message)
+        protected SMSOfficeException(string message) : base(message)
+        {
+        }
+    }
+
+    internal class BadRequestException : SMSOfficeException
+    {
+        internal BadRequestException(string message)
             : base($"Invalid request: {message}")
         {
         }
     }
 
-    public class SubscriptionException : Exception
+    internal class SubscriptionException : SMSOfficeException
     {
-        public SubscriptionException(string message)
+        internal SubscriptionException(string message)
             : base($"Subscription has problem: {message}")
         {
         }
     }
 
-    public class InternalServerException : Exception
+    internal class InternalServerException : SMSOfficeException
     {
-        public InternalServerException()
+        internal InternalServerException()
             : base("Server is temporarily unavailable")
         {
         }
     }
 
-    public class Response
+    internal class Response
     {
         [JsonProperty] public bool Success;
         [JsonProperty] public string Message;
@@ -41,7 +50,7 @@ namespace SMSOfficeSharp
     public class Sender
     {
         private readonly HttpClient _client = new HttpClient();
-        public static string ApiEndpoint = "https://smsoffice.ge/api/v2/send/";
+        private const string ApiEndpoint = "https://smsoffice.ge/api/v2/send/";
         public string MessageTitle { get; set; }
         public string ApiKey { get; set; }
 
