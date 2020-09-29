@@ -59,7 +59,7 @@ namespace SMSOfficeSharp
             var values = new Dictionary<string, string>
             {
                 {"key", ApiKey},
-                {"destination", string.Join(',', phoneNumbers)},
+                {"destination", string.Join(",", phoneNumbers)},
                 {"sender", MessageTitle},
                 {"content", text}
             };
